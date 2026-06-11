@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(brew install *)",
+      "Read(//usr/local/bin/**)",
+      "Read(//usr/local/Cellar/**)",
+      "Bash(brew info *)",
+      "Read(//usr/local/opt/poppler/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Bash(export CLAUDE_CODE_TMPDIR=/tmp)",
+      "Bash(ls /usr/local/opt/poppler/bin/)",
+      "Read(//opt/homebrew/opt/poppler/**)",
+      "Bash(ls /private/tmp/claude-501/-Users-rajeshcsharma-Desktop-PlayMore/ 2>/dev/null | head -20)",
+      "Bash(ls /opt/homebrew/bin/pdftoppm 2>/dev/null || find /usr/local /opt/homebrew -name pdftoppm 2>/dev/null | head -3)",
+      "mcp__Claude_in_Chrome__read_page",
+      "mcp__Claude_in_Chrome__computer",
+      "mcp__Claude_in_Chrome__navigate",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(python3 -m http.server 8765)",
+      "mcp__Control_Chrome__open_url",
+      "Bash(sed -i '' \"s|<span style=\\\\\"color:#5040a0; font-size:14px; text-decoration:line-through;\\\\\">₹1,299</span>|<span style=\\\\\"color:#5040a0; font-size:14px; text-decoration:line-through;\\\\\">MRP ₹1,999</span>|g\" WellneraDelaySpray.html)",
+      "Bash(sed -i '' \"s|<span style=\\\\\"color:#c084fc; font-size:34px; font-weight:900; margin-left:10px;\\\\\">₹899</span>|<span style=\\\\\"color:#c084fc; font-size:34px; font-weight:900; margin-left:10px;\\\\\">₹999</span>|g\" WellneraDelaySpray.html)",
+      "Bash(sed -i '' 's|31% OFF|50% OFF|g' WellneraDelaySpray.html)",
+      "Bash(sed -i '' 's|>📞 CALL NOW — ₹899</a>||g' WellneraDelaySpray.html)",
+      "Bash(sed -i '' \"s|<div style=\\\\\"color:#5040a0; font-size:12px; text-decoration:line-through;\\\\\">₹1,299</div>|<div style=\\\\\"color:#5040a0; font-size:12px; text-decoration:line-through;\\\\\">MRP ₹1,999</div>|g\" WellneraDelaySpray.html)"
+    ]
+  }
+}
